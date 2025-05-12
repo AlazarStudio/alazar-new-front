@@ -25,8 +25,8 @@ const Header = ({ activeCategoryId, onCategorySelect }) => {
     >
       <Toolbar disableGutters sx={{ justifyContent: 'space-between', flexWrap: 'wrap' }}>
         {/* Логотип */}
-        <Typography variant="h5" sx={{ fontWeight: 900, color: '#fff' }}>
-          <img src="/headerLogo.png" alt="logo" />
+        <Typography variant="h5" sx={{ fontWeight: 900, color: '#fff', display: 'flex', alignItem: 'center' }}>
+          <img src="/logo_alazar.svg" alt="logo" style={{height: '50px'}} />
         </Typography>
 
         {/* Категории */}
