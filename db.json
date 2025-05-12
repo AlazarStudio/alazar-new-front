@@ -1,0 +1,28 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Frontend",
+      "description": "HTML, CSS, JS, React"
+    },
+    {
+      "id": 2,
+      "name": "Backend",
+      "description": "Node, Express, Python"
+    }
+  ],
+  "developers": [
+    {
+      "id": 1,
+      "name": "Иван Петров",
+      "position": "Frontend",
+      "email": "ivan@example.com"
+    },
+    {
+      "id": 2,
+      "name": "Анна Смирнова",
+      "position": "Backend",
+      "email": "anna@example.com"
+    }
+  ]
+}
