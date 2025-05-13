@@ -1,0 +1,58 @@
+.card {
+    /* width: 430px;
+    height: 430px; */
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    background-size: 100% ;          /* ✅ заполняет полностью */
+    background-repeat: no-repeat;    /* ✅ без повторов */
+    background-position: center;
+    position: relative;
+    color: white;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    background-blend-mode: darken;
+    /* outline: 1px solid red; */
+  }
+  
+  .overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.55);
+    z-index: 1;
+  }
+  
+  .categories {
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 28px;
+  }
+  
+  .categoryText {
+    font-size: 13px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    color: #ffffffb2;
+  }
+  
+  .titleWrapper {
+    z-index: 2;
+  }
+  
+  .title {
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    vertical-align: middle;
+    z-index: 2;
+  }
+  

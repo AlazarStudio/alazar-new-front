@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.casesWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 30px 30px;
+  gap: 20px 0;
+  margin-left: 1%;
+  /* outline: 1px solid red; */
+  /* justify-content: space-between; */
+}
+
+.footer {
+  text-align: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  color: #666;
+}
+
+.caseBox {
+  width: 24%;
+  aspect-ratio: 1 / 1;
+  cursor: pointer;
+  /* outline: 1px solid red; */
+}
+
+@media (max-width: 768px) {
+}

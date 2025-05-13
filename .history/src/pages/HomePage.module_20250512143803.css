@@ -1,0 +1,28 @@
+.container {
+    width: 100%;
+  }
+  
+  .casesWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 30px 30px;
+    gap: 25px 0;
+    /* outline: 1px solid red; */
+    justify-content: space-between;
+    
+  }
+  
+  .footer {
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    color: #666;
+  }
+  
+  .caseBox {
+    width: ;
+    cursor: pointer;
+    outline: 1px solid red;
+  }
+  
